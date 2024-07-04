@@ -1,1 +1,1 @@
-# rsschool-cv
+https://avechkina.github.io/rsschool-cv/

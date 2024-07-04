@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Natallia Avechkina</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/img/icon.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="ul-header">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code Example</a></li>
+                <li><a href="#project">Projects</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section id="name" class="sec-name">
+            <img src="./assets/img/myPhoto.png" alt="myPhoto" class="img-myPhoto">
+            <div class="div-name">
+                <h1>Natallia Avechkina</h1>
+                <ul class="ul-contacts">
+                    <li><span>Tel:</span>+375445162495</li>
+                    <li><span>Email:</span>natallia.ovechkina@gmail.com</li>
+                    <li><span>Discord:</span>Natallia (@Avechkina)</li>
+                </ul>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About me</h2>
+            <div class="div-about">
+                <p>I am 35 years old. I have 13 years of experience in the construction industry.</p>
+                <p>In 2023 I decided to gain new knowledge and change my field of activity.</p>
+            </div>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul class="ul-education">
+                <li>
+                    <div class="div-ul-education">
+                        <span>2006 - 2011</span>
+                        <p>Belarusian National Technical University / Faculty of Civil Engineering.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="div-ul-education">
+                        <span>2014 - 2015</span>
+                        <p>Belarusian National Technical University / additional, Faculty of Civil Engineering.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="div-ul-education">
+                        <span>2023 - pres.</span>
+                        <p>Belarusian State University, business institute / additional, Web-designer programmer.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="div-ul-education">
+                        <span>English</span>
+                        <p>A2</p>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="ul-skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        <section id="code">
+            <h2>Code Example</h2>
+            <code>
+                <span class="red">let</span> clockInt = <span class="red">window</span>.<span class="orange">setInterval</span>(clock, <span class="blue">1000</span>); <span class="green">// интервал часов</span><br><br>
+                <span class="red">function</span> <span class="violet">clock</span>() {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="red">let</span> now = <span class="red">new</span> <span class="violet">Date</span>();<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="red">let</span> hours = now.<span class="violet">getHours</span>();<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;hours = hours > <span class="blue">23</span> ? (hours - <span class="blue">23</span>) : hours;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="red">document</span>.<span class="violet">getElementById</span>(<span class="str">"span_h"</span>).textContent = (hours &lt; <span class="blue">10</span> ? <span class="str">'0'</span> : <span class="str">''</span> ) + hours;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="red">document</span>.<span class="violet">getElementById</span>(<span class="str">"span_min"</span>).textContent = (now.<span class="violet">getMinutes</span>() &lt; <span class="blue">10</span> ? <span class="str">'0'</span> : <span class="str">''</span> ) + now.<span class="violet">getMinutes</span>();<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="red">document</span>.<span class="violet">getElementById</span>(<span class="str">span_sec"</span>).textContent = (now.<span class="violet">getSeconds</span>() &lt; <span class="blue">10</span> ? <span class="str">'0'</span> : <span class="str">''</span> ) + now.<span class="violet">getSeconds</span>();<br>
+                  }
+            </code>
+        </section>
+        <section id="project" class="sec-project">
+            <h2>Projects</h2>
+            <article>
+                <h3>Clock, Timer, Stopwatch</h3>
+                <img class='clock' src="./assets/img/clock.png" alt="Clock">
+                <p>Study project for the exam. Clock, timer and stopwatch are implemented using HTML, CSS, JavaScript
+                    tools.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <a class="a-github" href="https://github.com/Avechkina">Natallia Avechkina</a>
+        <span>2024, Minsk</span>
+        <a class="a-jss" href="https://rs.school/courses/javascript-preschool-ru"></a>
+    </footer>
+</body>
+
+</html>

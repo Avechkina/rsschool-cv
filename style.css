@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    padding: 30px 20% 20px 20%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ul-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul-header>li {
+    display: inline;
+    text-decoration: none;
+}
+.ul-header>li>a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+main {
+    padding: 0 15% 0 15%;
+    background-color: whitesmoke;
+}
+
+section {
+    display: flex;
+    padding: 20px 0 20px 0;
+    border-bottom: rgb(28, 82, 52) solid 2px;
+
+}
+
+.sec-name {
+    padding: 30px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: rgb(28, 82, 52) solid 2px;
+}
+
+h1 {
+    color: rgb(28, 82, 52);
+    width: fit-content;
+    padding-bottom: 10px;
+    font-size: 26px;
+}
+
+.div-name {
+    width: fit-content;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-myPhoto {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.ul-contacts {
+    list-style-type: none;
+}
+
+.ul-contacts>li {
+    padding-top: 5px;
+}
+
+.ul-contacts>li>span {
+    color: rgb(28, 82, 52);
+    font-weight: bold;
+    width: 75px;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 20px;
+    display: inline-block;
+    color: rgb(28, 82, 52);
+    font-weight: bold;
+    width: 20%;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.div-about {
+    width: fit-content;
+}
+
+.div-about>p {
+
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+.ul-education {
+    width: 75%;
+    list-style-type: none;
+}
+
+.ul-education>li {
+    padding-bottom: 10px;
+}
+
+.div-ul-education {
+    display: flex;
+    align-items: center;
+}
+
+.div-ul-education>span {
+    color: rgb(28, 82, 52);
+    font-weight: bold;
+    width: 20%;
+    display: inline-block;
+    padding-right: 20px;
+    text-align: right;
+    align-self: self-start;
+}
+
+.div-ul-education>p {
+    width: 80%;
+}
+
+.ul-skills {
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+}
+
+.ul-skills>li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+    border: solid 2px rgb(28, 82, 52);
+    border-radius: 5px;
+    margin-right: 15px;
+    align-self: baseline;
+}
+code {
+    width: 70%;
+    font-family: monospace;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+code > span {
+    font-family: monospace;
+}
+.green {
+    color: green;
+}
+.red {
+    color: darkred;
+}
+.orange {
+    color: orangered;
+}
+.violet{
+    color: blueviolet;
+}
+.blue {
+    color: darkblue;
+}
+.str {
+    color:darkmagenta;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+h3 {
+    color: rgb(28, 82, 52);
+    font-size: 16px;
+}
+.clock {
+    width: 70%;
+    align-self: center;
+    padding: 15px 0 20px 0;
+}
+article > p {
+    width: 80%;
+    text-align: center;
+}
+.sec-project {
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+footer {
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    padding: 30px 20% 20px 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+
+}
+.a-github {
+   text-decoration: none;
+   color: whitesmoke;
+}
+.a-jss {
+    display: block;
+    height: 38px;
+    width: 100px;
+    background: url('./assets/img/rs_school_js.svg');
+}
