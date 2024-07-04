@@ -31,15 +31,20 @@ nav {
 
 .ul-header>li {
     display: inline;
+    text-decoration: none;
 }
-
+.ul-header>li>a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 main {
-    padding: 0 20% 0 20%;
+    padding: 0 15% 0 15%;
+    background-color: whitesmoke;
 }
 
 section {
     display: flex;
-    padding: 10px 0 10px 0;
+    padding: 20px 0 20px 0;
     border-bottom: rgb(28, 82, 52) solid 2px;
 
 }
@@ -91,15 +96,132 @@ h2 {
     display: inline-block;
     color: rgb(28, 82, 52);
     font-weight: bold;
-    width: 120px;
-    padding-right: 10px;
+    width: 20%;
+    padding-right: 20px;
+    text-align: right;
 }
-.div-about > p {
+
+.div-about {
     width: fit-content;
+}
+
+.div-about>p {
+
     text-align: justify;
     padding-bottom: 5px;
 }
+
 .ul-education {
-    width: fit-content;
+    width: 75%;
     list-style-type: none;
+}
+
+.ul-education>li {
+    padding-bottom: 10px;
+}
+
+.div-ul-education {
+    display: flex;
+    align-items: center;
+}
+
+.div-ul-education>span {
+    color: rgb(28, 82, 52);
+    font-weight: bold;
+    width: 20%;
+    display: inline-block;
+    padding-right: 20px;
+    text-align: right;
+    align-self: self-start;
+}
+
+.div-ul-education>p {
+    width: 80%;
+}
+
+.ul-skills {
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+}
+
+.ul-skills>li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+    border: solid 2px rgb(28, 82, 52);
+    border-radius: 5px;
+    margin-right: 15px;
+    align-self: baseline;
+}
+code {
+    width: 70%;
+    font-family: monospace;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+code > span {
+    font-family: monospace;
+}
+.green {
+    color: green;
+}
+.red {
+    color: darkred;
+}
+.orange {
+    color: orangered;
+}
+.violet{
+    color: blueviolet;
+}
+.blue {
+    color: darkblue;
+}
+.str {
+    color:darkmagenta;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+h3 {
+    color: rgb(28, 82, 52);
+    font-size: 16px;
+}
+.clock {
+    width: 70%;
+    align-self: center;
+    padding: 15px 0 20px 0;
+}
+article > p {
+    width: 80%;
+    text-align: center;
+}
+.sec-project {
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+footer {
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    padding: 30px 20% 20px 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+
+}
+.a-github {
+   text-decoration: none;
+   color: whitesmoke;
+}
+.a-jss {
+    display: block;
+    height: 38px;
+    width: 100px;
+    background: url('./assets/img/rs_school_js.svg');
 }
