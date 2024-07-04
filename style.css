@@ -1,28 +1,105 @@
-*   {
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80%;
 }
 
 header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    padding: 30px 20% 20px 20%;
 }
 
 nav {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+
 }
 
+.ul-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
-
-li {
+.ul-header>li {
     display: inline;
+}
 
+main {
+    padding: 0 20% 0 20%;
+}
+
+section {
+    display: flex;
+    padding: 10px 0 10px 0;
+    border-bottom: rgb(28, 82, 52) solid 2px;
+
+}
+
+.sec-name {
+    padding: 30px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: rgb(28, 82, 52) solid 2px;
+}
+
+h1 {
+    color: rgb(28, 82, 52);
+    width: fit-content;
+    padding-bottom: 10px;
+    font-size: 26px;
+}
+
+.div-name {
+    width: fit-content;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-myPhoto {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.ul-contacts {
+    list-style-type: none;
+}
+
+.ul-contacts>li {
+    padding-top: 5px;
+}
+
+.ul-contacts>li>span {
+    color: rgb(28, 82, 52);
+    font-weight: bold;
+    width: 75px;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 20px;
+    display: inline-block;
+    color: rgb(28, 82, 52);
+    font-weight: bold;
+    width: 120px;
+    padding-right: 10px;
+}
+.div-about > p {
+    width: fit-content;
+    text-align: justify;
+    padding-bottom: 5px;
+}
+.ul-education {
+    width: fit-content;
+    list-style-type: none;
 }

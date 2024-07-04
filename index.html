@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Natallia Avechkina</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./assets/img/">
+    <link rel="icon" href="./assets/img/icon.png">
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="ul-header">
                 <li><a>About me</a></li>
                 <li><a>Education</a></li>
                 <li><a>Skills</a></li>
@@ -23,20 +23,27 @@
 
     </header>
     <main>
-        <img src="" alt="myPhoto">
-        <h1>Natallia Avechkina</h1>
-        <ul>
-            <li>Tel: <span>+375445162495</span></li>
-            <li>Email: <Span>natallia.ovechkina@gmail.com</Span></li>
-        </ul>
+        <section class="sec-name">
+            <img src="./assets/img/myPhoto.png" alt="myPhoto" class="img-myPhoto" />
+            <div class="div-name">
+                <h1>Natallia Avechkina</h1>
+                <ul class="ul-contacts">
+                    <li><span>Tel:</span>+375445162495</li>
+                    <li><span>Email:</span>natallia.ovechkina@gmail.com</li>
+                    <li><span>Discord:</span>Natallia (@Avechkina)</li>
+                </ul>
+            </div>
+        </section>
         <section>
             <h2>About me</h2>
-            <p>I am 35 years old. I have 13 years of experience in the construction industry.</p>
-            <p>In 2023 I decided to gain new knowledge and change my field of activity.</p>
+            <div class="div-about">
+                <p>I am 35 years old. I have 13 years of experience in the construction industry.</p>
+                <p>In 2023 I decided to gain new knowledge and change my field of activity.</p>
+            </div>
         </section>
         <section>
             <h2>Education</h2>
-            <ul>
+            <ul class="ul-education">
                 <li>
                     <div>
                         <span>2006 - 2011</span>
@@ -55,11 +62,14 @@
                         <p>Belarusian State University, business institute / additional, Web-designer programmer.</p>
                     </div>
                 </li>
+                <li>
+                <div>
+                    <span>English</span>
+                    <p>A2</p>
+                </div>
+            </li>
             </ul>
-            <div>
-                <span>English</span>
-                <p>A2</p>
-            </div>
+
         </section>
         <section>
             <h2>Skills</h2>
@@ -88,7 +98,8 @@
             <article>
                 <h3>Clock, Timer, Stopwatch</h3>
                 <img src="" alt="Clock"><img src="" alt="Timer"><img src="" alt="Stopwatch">
-                <p>Study project for the exam. Clock, timer and stopwatch are implemented using HTML, CSS, JavaScript tools.</p>
+                <p>Study project for the exam. Clock, timer and stopwatch are implemented using HTML, CSS, JavaScript
+                    tools.</p>
             </article>
         </section>
     </main>
