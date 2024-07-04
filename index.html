@@ -13,21 +13,17 @@
     <header>
         <nav>
             <ul>
-                <li>
-                    <a>About me</a>
-                </li>
-                <li>
-                    <a>Education</a>
-                </li>
-                <li>
-                    <a>Skills</a>
-                </li>
+                <li><a>About me</a></li>
+                <li><a>Education</a></li>
+                <li><a>Skills</a></li>
+                <li><a>Code Example</a></li>
+                <li><a>Projects</a></li>
             </ul>
         </nav>
 
     </header>
     <main>
-        <img src="" alt="">
+        <img src="" alt="myPhoto">
         <h1>Natallia Avechkina</h1>
         <ul>
             <li>Tel: <span>+375445162495</span></li>
@@ -60,6 +56,10 @@
                     </div>
                 </li>
             </ul>
+            <div>
+                <span>English</span>
+                <p>A2</p>
+            </div>
         </section>
         <section>
             <h2>Skills</h2>
@@ -72,20 +72,30 @@
         <section>
             <h2>Code Example</h2>
             <code>
-                let clockInt = window.setInterval(clock, 1000); // интервал часов
-                function clock() {
-                    let now = new Date();
-                    let hours = now.getHours();
-                    hours = hours > 23 ? (hours - 23) : hours;
-                    document.getElementById("span_h").textContent = (hours < 10 ? '0' : '') + hours;
-                    document.getElementById("span_min").textContent = (now.getMinutes() < 10 ? '0' : '') + now.getMinutes();
-                    document.getElementById("span_sec").textContent = (now.getSeconds() < 10 ? '0' : '') + now.getSeconds();
+                let clockInt = window.setInterval(clock, 1000); // интервал часов<br><br>
+                function clock() {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;let now = new Date();<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;let hours = now.getHours();<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;hours = hours > 23 ? (hours - 23) : hours;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;document.getElementById("span_h").textContent = (hours < 10 ? '0' : '') + hours;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;document.getElementById("span_min").textContent = (now.getMinutes() < 10 ? '0' : '') + now.getMinutes();<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;document.getElementById("span_sec").textContent = (now.getSeconds() < 10 ? '0' : '') + now.getSeconds();<br>
                   }
             </code>
         </section>
+        <section>
+            <h2>Projects</h2>
+            <article>
+                <h3>Clock, Timer, Stopwatch</h3>
+                <img src="" alt="Clock"><img src="" alt="Timer"><img src="" alt="Stopwatch">
+                <p>Study project for the exam. Clock, timer and stopwatch are implemented using HTML, CSS, JavaScript tools.</p>
+            </article>
+        </section>
     </main>
     <footer>
-
+        <a href="https://github.com/Avechkina">Natallia Avechkina</a>
+        <span>2024, Minsk</span>
+        <a href="https://rs.school/courses/javascript-preschool-ru"></a>
     </footer>
 </body>
 
