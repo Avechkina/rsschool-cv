@@ -224,4 +224,5 @@ footer {
     height: 38px;
     width: 100px;
     background: url('./assets/img/rs_school_js.svg');
+    color: transparent;
 }
