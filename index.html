@@ -86,7 +86,7 @@
                 <span class="red">function</span> <span class="violet">clock</span>() {<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;<span class="red">let</span> now = <span class="red">new</span> <span class="violet">Date</span>();<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;<span class="red">let</span> hours = now.<span class="violet">getHours</span>();<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;hours = hours > <span class="blue">23</span> ? (hours - <span class="blue">23</span>) : hours;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;hours = hours &gt; <span class="blue">23</span> ? (hours - <span class="blue">23</span>) : hours;<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;<span class="red">document</span>.<span class="violet">getElementById</span>(<span class="str">"span_h"</span>).textContent = (hours &lt; <span class="blue">10</span> ? <span class="str">'0'</span> : <span class="str">''</span> ) + hours;<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;<span class="red">document</span>.<span class="violet">getElementById</span>(<span class="str">"span_min"</span>).textContent = (now.<span class="violet">getMinutes</span>() &lt; <span class="blue">10</span> ? <span class="str">'0'</span> : <span class="str">''</span> ) + now.<span class="violet">getMinutes</span>();<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;<span class="red">document</span>.<span class="violet">getElementById</span>(<span class="str">span_sec"</span>).textContent = (now.<span class="violet">getSeconds</span>() &lt; <span class="blue">10</span> ? <span class="str">'0'</span> : <span class="str">''</span> ) + now.<span class="violet">getSeconds</span>();<br>
@@ -97,7 +97,7 @@
             <h2>Projects</h2>
             <article>
                 <h3>Clock, Timer, Stopwatch</h3>
-                <img class='clock' src="./assets/img/clock.png" alt="Clock">
+                <img class="clock" src="./assets/img/clock.png" alt="Clock">
                 <p>Study project for the exam. Clock, timer and stopwatch are implemented using HTML, CSS, JavaScript
                     tools.</p>
             </article>
